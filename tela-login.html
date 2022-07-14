@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="index-login.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form action="index.html" class="container-fluid" id="logar">
+      <h1>LOGIN</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <label for="inputUsuario" class="form-label">Digite o Usuário:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputUsuario"
+            placeholder=""
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <label for="inputSenha" class="form-label">Digite a Senha:</label>
+          <input
+            type="password"
+            class="form-control"
+            id="inputSenha"
+            placeholder=""
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2 mt-2">
+          <button
+            class="btn btn-primary"
+            type="submit"
+          >
+            LOGAR
+          </button>
+        </div>
+      </div>
+      <div>
+        <span id="mensagem"> </span>
+      </div>
+    </form>
+  </body>
+</html>
